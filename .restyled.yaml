@@ -67,11 +67,6 @@ exclude:
     - "third_party/cirque/repo/**/*"
     - "third_party/nanopb/repo/**/*"
 
-
-changed_paths:
-  maximum: 100000
-  outcome: error
-
 # Restylers to run, and how
 restylers:
     - name: whitespace

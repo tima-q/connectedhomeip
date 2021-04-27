@@ -120,11 +120,11 @@ private:
     struct SrpClient
     {
         static constexpr uint8_t kServiceId           = 0x5d;
-        static constexpr uint8_t kMaxServicesNumber   = 3;
+        static constexpr uint8_t kMaxServicesNumber   = 1;
         static constexpr uint8_t kMaxInstanceNameSize = 64;
         static constexpr uint8_t kMaxNameSize         = 16;
         static constexpr uint8_t kMaxHostNameSize     = 32;
-        static constexpr uint8_t kMaxTxtEntriesNumber = 4;
+        static constexpr uint8_t kMaxTxtEntriesNumber = 2;
         static constexpr uint8_t kMaxTxtValueSize     = 255;
         static constexpr uint8_t kMaxTxtKeySize       = 16;
 

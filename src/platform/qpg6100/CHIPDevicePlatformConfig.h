@@ -54,8 +54,8 @@
 // ========== Platform-specific Configuration Overrides =========
 
 #ifndef CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE
-#define CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE 4096 //3584
-#endif // CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE
+#define CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE (6 * 1024) // 4096 - 3584
+#endif                                                     // CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE
 
 #ifndef CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE
 #define CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE (6 * 1024)
